@@ -62,12 +62,39 @@ This repository intentionally takes the useful parts from auto-instatoon-style t
 ## Core Features
 
 - Korean guide documents for AI visual story production
-- Character profile templates for stable visual identity
-- Reference image, expression sheet, and pose sheet guidance
+- Character pack system: profile, hex palette, and reference images as one unit
+- 4-view (turnaround), expression sheet, and pose sheet generation guides
+- Scene and prop profiles for background and asset consistency
 - 4-card, 6-card, and 8-card storyboard structures
-- Prompt templates for planning, image generation, and regeneration
-- Checklists for character consistency and publishing readiness
+- Pacing guide for card-to-card rhythm and composition contrast
+- Prompt templates for planning (JSON card plans), image generation, and regeneration
+- Review checklists with stage-by-stage approval gates
 - Canvas rules for Instagram feed production
+
+## Repository Structure
+
+```text
+docs/
+  workflow-ko.md                      # 8-step production workflow (Korean)
+character-system/
+  character-profile-template.md       # quick-start character profile
+  character-pack-template.md          # full pack: profile + palette + references
+  four-view-reference-guide.md        # turnaround, expression, pose sheet prompts
+asset-system/
+  scene-profile-template.md           # recurring location consistency
+  prop-profile-template.md            # prop and costume continuity
+story-system/
+  four-card-storyboard.md
+  six-card-storyboard.md
+  eight-card-storyboard.md
+  pacing-guide.md                     # card-to-card rhythm rules
+prompt-system/
+  planning-prompt.md                  # brief -> story plan -> JSON card plan
+  image-prompt.md                     # per-card image generation
+  regeneration-prompt.md              # single-card regeneration
+checklists/
+  review-checklist.md                 # approval gates and publish checklist
+```
 
 ## Canvas Rules
 
@@ -80,10 +107,17 @@ This repository intentionally takes the useful parts from auto-instatoon-style t
 ## Start Here
 
 1. Read `docs/workflow-ko.md`.
-2. Fill out `character-system/character-profile-template.md`.
-3. Plan an episode with `story-system/six-card-storyboard.md`.
-4. Generate prompts with `prompt-system/image-prompt.md`.
-5. Regenerate weak cards with `prompt-system/regeneration-prompt.md`.
+2. Build a character pack with `character-system/character-pack-template.md`.
+3. Create reference sheets with `character-system/four-view-reference-guide.md`.
+4. Plan an episode with `prompt-system/planning-prompt.md` and a storyboard
+   from `story-system/` (4, 6, or 8 cards).
+5. Check rhythm with `story-system/pacing-guide.md`.
+6. Generate prompts with `prompt-system/image-prompt.md`.
+7. Review with `checklists/review-checklist.md`.
+8. Regenerate weak cards with `prompt-system/regeneration-prompt.md`.
+
+Approval gates: story plan -> card plan -> references -> card images.
+Do not generate card images before the character references are approved.
 
 ## License
 

@@ -29,6 +29,8 @@ Card:
 
 Rules:
 - keep the same character identity as the reference
+- extract only the character identity from the attached reference images
+- ignore background, lighting, mood, and environment from the reference images
 - simple Korean instatoon composition
 - one message per card
 - readable text, no tiny paragraphs
