@@ -3,6 +3,10 @@
 아래 프롬프트는 `card-plan.json`을 `prompt-system/image-prompt.md` 형식에 맞춰 옮긴 예시입니다.
 실제 생성 전에는 Mina의 4-view, 표정 시트, 포즈 시트를 레퍼런스로 첨부합니다.
 
+주의: 프롬프트 안의 `characters/example-character/profile.md` 같은 파일 경로는
+이미지 생성 도구가 읽지 못합니다. 실제로 붙여넣을 때는 경로 대신
+프로필 문서의 내용을 직접 넣고, 레퍼런스 이미지를 파일로 첨부하세요.
+
 ## Shared Reference Rule
 
 모든 카드 프롬프트에 아래 규칙을 포함합니다.
