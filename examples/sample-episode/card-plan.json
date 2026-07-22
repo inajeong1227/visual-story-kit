@@ -1,0 +1,85 @@
+{
+  "series_title": "캐릭터가 매번 달라지는 이유",
+  "tone": "담백한 공감형, 약간 웃김",
+  "visual_style": "simple Korean instatoon, rounded hand-drawn line, flat colors, minimal background",
+  "cards": [
+    {
+      "index": 1,
+      "role": "hook",
+      "headline": "AI 캐릭터가 왜 매번 다를까?",
+      "scene": "Mina looks at six generated character cards spread on a desk, each card looking slightly different.",
+      "characters": ["Mina"],
+      "scene_ref": "",
+      "narration": "",
+      "dialogue": "분명 같은 캐릭터였는데...",
+      "caption": "첫 장은 문제를 바로 보여준다.",
+      "visual_prompt": "Close-up desk composition with six small image cards spread out, Mina leaning in with a confused expression, simple white background, large empty top area for headline.",
+      "regeneration_note": "If too crowded, reduce the number of cards to three."
+    },
+    {
+      "index": 2,
+      "role": "situation",
+      "headline": "매번 새로 설명하고 있었다",
+      "scene": "Mina types a long prompt into a laptop while looking tired.",
+      "characters": ["Mina"],
+      "scene_ref": "",
+      "narration": "이미지마다 캐릭터 설명을 다시 쓰면",
+      "dialogue": "",
+      "caption": "상황을 설명한다.",
+      "visual_prompt": "Medium shot of Mina typing a very long prompt on a laptop, small floating prompt lines around the screen, minimal desk background.",
+      "regeneration_note": "Keep text-like prompt lines abstract, not readable paragraphs."
+    },
+    {
+      "index": 3,
+      "role": "problem",
+      "headline": "조금씩 흔들린다",
+      "scene": "Three versions of Mina appear side by side with different hair length, outfit color, and eye size.",
+      "characters": ["Mina"],
+      "scene_ref": "",
+      "narration": "머리, 옷, 눈, 분위기가 조금씩 바뀌었다.",
+      "dialogue": "",
+      "caption": "문제를 시각적으로 보여준다.",
+      "visual_prompt": "Three side-by-side simplified versions of the same character silhouette, with subtle differences highlighted using small arrows, simple background.",
+      "regeneration_note": "Differences should be obvious but not grotesque."
+    },
+    {
+      "index": 4,
+      "role": "turn",
+      "headline": "먼저 고정해야 하는 건 프롬프트가 아니었다",
+      "scene": "Mina places a character pack document before the image cards.",
+      "characters": ["Mina"],
+      "scene_ref": "",
+      "narration": "먼저 필요한 건 캐릭터 팩이었다.",
+      "dialogue": "아, 기준표부터 만들자.",
+      "caption": "관점이 바뀌는 카드.",
+      "visual_prompt": "Clear turn-card composition: Mina holds up a simple document labeled Character Pack, image cards are pushed to the side, brighter background.",
+      "regeneration_note": "Make the Character Pack document the visual center."
+    },
+    {
+      "index": 5,
+      "role": "interpretation",
+      "headline": "외형은 팩에서, 장면은 카드에서",
+      "scene": "A simple split layout shows character identity on the left and card scene/action on the right.",
+      "characters": ["Mina"],
+      "scene_ref": "",
+      "narration": "캐릭터 외형과 카드 장면을 분리하면 덜 흔들린다.",
+      "dialogue": "",
+      "caption": "핵심 원칙을 정리한다.",
+      "visual_prompt": "Simple two-column visual diagram with Mina in the center, left side showing character identity icons, right side showing scene and action icons, minimal text placeholders only.",
+      "regeneration_note": "Keep this card diagram-like and very simple."
+    },
+    {
+      "index": 6,
+      "role": "closing",
+      "headline": "Plan first, render later.",
+      "scene": "Mina stands calmly beside a neat stack of cards and a checked character pack.",
+      "characters": ["Mina"],
+      "scene_ref": "",
+      "narration": "이미지는 마지막에 만든다.",
+      "dialogue": "",
+      "caption": "마지막 장은 포스터처럼 단순하게 끝낸다.",
+      "visual_prompt": "Poster-like closing card with Mina standing next to a neat stack of story cards and a checked character pack, lots of white space, calm confident mood.",
+      "regeneration_note": "Use the most whitespace in this final card."
+    }
+  ]
+}

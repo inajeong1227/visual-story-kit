@@ -10,6 +10,16 @@ Visual Story Kit is a Korean-friendly production kit for AI-assisted visual stor
 
 It is designed for creators who want to keep characters, style, story structure, and prompts consistent across multiple cards or episodes.
 
+## Who This Is For
+
+Visual Story Kit is for:
+
+- Instagram comic creators who want consistent characters
+- Brand content creators making carousel stories
+- Educators and explainers creating card-based visual content
+- Designers experimenting with AI-assisted story workflows
+- Anyone who wants to turn a brief into a repeatable visual story system
+
 ## Core Idea
 
 ```text
@@ -75,6 +85,7 @@ This repository intentionally takes the useful parts from auto-instatoon-style t
 
 ```text
 docs/
+  quickstart-ko.md                    # 30-minute quickstart (Korean)
   workflow-ko.md                      # 8-step production workflow (Korean)
 character-system/
   character-profile-template.md       # quick-start character profile
@@ -94,6 +105,10 @@ prompt-system/
   regeneration-prompt.md              # single-card regeneration
 checklists/
   review-checklist.md                 # approval gates and publish checklist
+characters/
+  example-character/                  # completed example character profile
+examples/
+  sample-episode/                     # brief -> character pack -> card JSON -> prompts
 ```
 
 ## Canvas Rules
@@ -106,15 +121,17 @@ checklists/
 
 ## Start Here
 
-1. Read `docs/workflow-ko.md`.
-2. Build a character pack with `character-system/character-pack-template.md`.
-3. Create reference sheets with `character-system/four-view-reference-guide.md`.
-4. Plan an episode with `prompt-system/planning-prompt.md` and a storyboard
+1. Start with `docs/quickstart-ko.md` if this is your first time.
+2. Read `docs/workflow-ko.md` for the full workflow.
+3. Look at `characters/example-character/` and `examples/sample-episode/`.
+4. Build a character pack with `character-system/character-pack-template.md`.
+5. Create reference sheets with `character-system/four-view-reference-guide.md`.
+6. Plan an episode with `prompt-system/planning-prompt.md` and a storyboard
    from `story-system/` (4, 6, or 8 cards).
-5. Check rhythm with `story-system/pacing-guide.md`.
-6. Generate prompts with `prompt-system/image-prompt.md`.
-7. Review with `checklists/review-checklist.md`.
-8. Regenerate weak cards with `prompt-system/regeneration-prompt.md`.
+7. Check rhythm with `story-system/pacing-guide.md`.
+8. Generate prompts with `prompt-system/image-prompt.md`.
+9. Review with `checklists/review-checklist.md`.
+10. Regenerate weak cards with `prompt-system/regeneration-prompt.md`.
 
 Approval gates: story plan -> card plan -> references -> card images.
 Do not generate card images before the character references are approved.
